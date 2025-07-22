@@ -174,11 +174,10 @@ footer{
 
 @media screen and (max-width: 576px) {
     .card-container,
-    .footer,
     .feature-section,
     .banner{
         display: grid;
-        grid-template-columns: repeat(1,1fr);
+        grid-template-columns:1fr;
         justify-items: center;
         max-width: 100%;
         margin: 0px auto ;
@@ -192,16 +191,14 @@ footer{
     .nav-links{
         display: none;
     }
-    .nav-links :nth-child(6){
-        display: grid;
-        
-    }
-    /* .footer{
+    
+   
+    footer{
         text-align: center;
         margin: 0 auto;
         padding: 10px;
         width: 100%;
-    } */
+    } 
    .feature-section {
         text-align: center;
         padding: 20px;
