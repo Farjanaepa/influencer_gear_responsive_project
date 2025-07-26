@@ -11,6 +11,9 @@
     
     
 }
+body{
+    overflow-x: hidden;
+}
 
 .popins{
      font-family: "Poppins", sans-serif;
@@ -192,7 +195,9 @@ footer{
         display: none;
     }
     
-   
+   body{
+    overflow-x: hidden;
+}
     footer{
         text-align: center;
         margin: 0 auto;
